@@ -8,7 +8,7 @@ This project takes a set of Chemical Engineering exam questions stored in an Exc
 
 1. **Opened the original file.** The starting file, "Chemical Engineering.xlsx", contains several sheets, each holding a set of questions with their answer options, correct answers, and explanations.
 
-2. **Went through each sheet one by one.** Two sheets that were not question data ("Cleaning SOP" and "Extraction_Log") were left untouched and skipped.
+2. **Went through each sheet one by one.** sheet that were not question data ("Cleaning SOP") were left untouched and skipped.
 
 3. **Checked each sheet for problems**, such as missing details, repeated entries, and extra blank spaces in the text.
 

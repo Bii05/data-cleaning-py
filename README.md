@@ -1,6 +1,6 @@
-# Chemical Engineering Question Data Cleaning
+## MINI DATA-CLEANING FLOW
 
-## What this project is about
+## What this work is about
 
 This project takes a set of Chemical Engineering exam questions stored in an Excel file and cleans them up so the information is accurate, consistent, and ready to use.
 
@@ -46,3 +46,25 @@ This project takes a set of Chemical Engineering exam questions stored in an Exc
 - **read.py** — the set of instructions used to clean the data.
 - **cleaned_output.xlsx** — the automatically cleaned result.
 - **chem engg cleaned output manual.xlsx** — the cleaned result after a manual review.
+
+## GIVEN MESSY DATA SHEETS(CHEM ENGG)
+#topic 1 --sample
+<img width="1917" height="241" alt="image" src="https://github.com/user-attachments/assets/791f0b88-58bf-45d2-9d87-8b0d2b070bf6" />
+.
+.
+#topic (last sheet) --sample
+<img width="1917" height="727" alt="image" src="https://github.com/user-attachments/assets/0cead6ef-04d0-4382-9c07-3930f75a732a" />
+
+## GIVEN INSTRUCTIONS(UNFORMATTED --> FORMATTED)
+<img width="1917" height="752" alt="image" src="https://github.com/user-attachments/assets/3a4387a3-fe46-47dc-9e6c-7c776585be61" />
+
+## FORMATTED DATASHEET AS OUTPUT (Using python scripts)
+#topic 1 as example
+<img width="1917" height="727" alt="image" src="https://github.com/user-attachments/assets/1e678a92-cdee-4039-9974-450db521e7db" />
+
+## FORMATTED DATASHEET AS OUTPUT (Last manual check)
+#topic 1 as example
+<img width="1913" height="718" alt="image" src="https://github.com/user-attachments/assets/c9c60442-a0e2-4308-be49-41796276226e" />
+
+
+

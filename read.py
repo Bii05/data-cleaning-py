@@ -7,10 +7,7 @@ print(len(excel.sheet_names))
 
 excel_file = pd.ExcelFile("Chemical Engineering.xlsx")
 
-
-# =========================
-# CLEANING FUNCTION
-# =========================
+#cleaning func begins
 def clean_sheet(df):
 
     #checking the data
@@ -147,13 +144,11 @@ def clean_sheet(df):
     return df
 
 
-# SHEETS TO SKIP (NO CHANGE)
-
+#skipping the 2 sheets
 skip_sheets = ["Cleaning SOP", "Extraction_Log"]
 
 
-# PROCESS ALL SHEETS
-
+# all sheets
 output_sheets = {}
 
 for sheet in excel_file.sheet_names:
@@ -173,7 +168,7 @@ for sheet in excel_file.sheet_names:
     output_sheets[sheet] = cleaned_df
 
 
-# SAVE OUTPUT FILE
+#saving the output file
 with pd.ExcelWriter("cleaned_output.xlsx") as writer:
     for sheet_name, df in output_sheets.items():
         df.to_excel(writer, sheet_name=sheet_name, index=False)
